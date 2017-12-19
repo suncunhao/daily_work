@@ -75,7 +75,6 @@ for i in range(len(data)):
         continue
 
 
-
 # 数位规范
 a = data['客户总公司编码'].apply(
     lambda x: int(x/100) if x > 1e7 else x
