@@ -17,4 +17,3 @@ data = data.rename(columns={'回款率':'payrate', '周转率':'turnrate', '周�
 data.head()
 data.to_csv('data_output/dateorder/20171214/CS_NEWindex1214.csv')
 
-
