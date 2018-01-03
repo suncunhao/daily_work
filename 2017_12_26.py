@@ -34,7 +34,7 @@ lists_header = list(lists_header.loc[0])
 list_data = pd.read_clipboard(header=None)
 list_data.columns = list_header
 
-list_data.to_csv('data_output/dateorder/20171226/2017LIST_MY.csv')
+list_data.to_csv('data_output/dateorder/20171226/2017LIST_JZ.csv')
 
 lists_data = pd.read_clipboard(header=None)
 lists_data.columns = lists_header
